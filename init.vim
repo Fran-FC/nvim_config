@@ -1,11 +1,10 @@
-""let g:mode = 'focus'
-
-
-call plug#begin()
-Plug 'joshdick/onedark'
-call plug#end()
+let g:mode = 'focus'
 colorscheme onedark
 
 set number
 set relativenumber
+
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
 
